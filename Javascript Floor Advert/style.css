@@ -1,0 +1,31 @@
+#floorAd {
+	position: fixed;
+	bottom: -80px;
+	left: 0;
+	z-index: 5000;
+	_position: absolute;
+	_right: 16px;
+	_bottom: -1px;
+	width: 100%;
+	height: 120px;
+	background-image: url('http://placehold.it/800x120');
+	background-repeat: no-repeat;
+	background-position: center;
+
+	background-color: #234485;
+	text-align: center;
+	/*
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#234485), to(#122345));
+	background-image: -webkit-linear-gradient(top, #234485, #122345);
+	background-image: -moz-linear-gradient(top, #234485, #122345);
+	background-image: -ms-linear-gradient(top, #234485, #122345);
+	background-image: -o-linear-gradient(top, #234485, #122345);
+	background-image: linear-gradient(top, #234485, #122345);
+	background-repeat: repeat-x;*/
+}
+
+#floorAd * {
+	color: #fff;
+	padding-top: 5px;
+	margin: 0px;
+}
